@@ -3,6 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <title>GAG Trading Hub</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f8fb;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      background: #4caf50;
+      color: white;
+      margin: 0;
+      padding: 1rem 2rem;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    form {
+      background: white;
+      margin: 2rem auto 1rem auto;
+      padding: 1.5rem 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    form input, form button {
+      padding: 0.7rem;
+      border: 1px solid #cfd8dc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form button {
+      background: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    form button:hover {
+      background: #388e3c;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-top: 2rem;
+    }
+    #offers {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+    #offers li {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.05rem;
+    }
+    #offers button {
+      background: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    #offers button:hover {
+      background: #1769aa;
+    }
+    @media (max-width: 700px) {
+      form, #offers {
+        max-width: 95vw;
+      }
+      #offers li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>Grow a Garden Trading Hub</h1>
@@ -16,7 +103,7 @@
   <ul id="offers"></ul>
   <script>
     async function loadOffers() {
-      const res = await fetch('/offers');
+      const res = await fetch('/api/offers');
       const offers = await res.json();
       const list = document.getElementById('offers');
       list.innerHTML = '';
@@ -26,7 +113,7 @@
         const btn = document.createElement('button');
         btn.textContent = 'Accept';
         btn.onclick = async () => {
-          await fetch(`/offers/${i}/accept`, { method: 'POST' });
+          await fetch(`/api/offers/${i}/accept`, { method: 'POST' });
           loadOffers();
         };
         li.appendChild(btn);
@@ -38,10 +125,10 @@
       const user = document.getElementById('user').value;
       const item = document.getElementById('item').value;
       const want = document.getElementById('want').value;
-      await fetch('/offers', {
+      await fetch('/api/offers', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ user, item, want })
+        body: JSON.stringify({ item, want })
       });
       loadOffers();
       e.target.reset();
