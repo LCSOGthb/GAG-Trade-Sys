@@ -18,7 +18,7 @@ CodeFactor:
 [![CodeFactor](https://www.codefactor.io/repository/github/lcsogthb/gag-trade-sys/badge)](https://www.codefactor.io/repository/github/lcsogthb/gag-trade-sys)
 
 Codacy:
-
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2a6d55aa38174189b725fce7139f2003)](https://app.codacy.com/gh/LCSOGthb/GAG-Trade-Sys/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Codecov:
 [![codecov](https://codecov.io/github/LCSOGthb/GAG-Trade-Sys/graph/badge.svg?token=t1v9D7ZHZV)](https://codecov.io/github/LCSOGthb/GAG-Trade-Sys)
