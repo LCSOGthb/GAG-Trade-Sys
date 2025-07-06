@@ -12,7 +12,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/LCSOGthb/GAG-Trade-Sys)
 
 CodeRabbit:
-
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/LCSOGthb/GAG-Trade-Sys?utm_source=oss&utm_medium=github&utm_campaign=LCSOGthb%2FGAG-Trade-Sys&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
 CodeFactor:
 
