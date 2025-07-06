@@ -45,3 +45,14 @@ Snyk:
 [![Known Vulnerabilities](https://snyk.io/test/github/LCSOGthb/GAG-Trade-Sys/badge.svg)](https://snyk.io/test/github/LCSOGthb/GAG-Trade-Sys)
 
 SonarQube Cloud:
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=coverage)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LCSOGthb_GAG-Trade-Sys&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LCSOGthb_GAG-Trade-Sys)
