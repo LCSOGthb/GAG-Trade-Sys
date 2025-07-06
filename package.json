@@ -1,0 +1,23 @@
+{
+  "name": "gag-trade-sys",
+  "version": "1.0.0",
+  "description": "![Lines Of Code](https://tokei.rs/b1/github/LCSOGthb/GAG-Trade-Sys)\r ![Repo Size](https://img.shields.io/github/repo-size/LCSOGthb/GAG-Trade-Sys)\r ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LCSOGthb/GAG-Trade-Sys)\r ![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/LCSOGthb/GAG-Trade-Sys)\r ![Last Commit](https://img.shields.io/github/last-commit/LCSOGthb/GAG-Trade-Sys)\r ![Open Issues](https://img.shields.io/github/issues/LCSOGthb/GAG-Trade-Sys)\r ![Closed Issues](https://img.shields.io/github/issues-closed/LCSOGthb/GAG-Trade-Sys)\r ![Pull Requests](https://img.shields.io/github/issues-pr/LCSOGthb/GAG-Trade-Sys)\r ![GitHub branch status](https://img.shields.io/github/checks-status/LCSOGthb/GAG-Trade-Sys/main)\r ![GitHub branch check runs](https://img.shields.io/github/check-runs/LCSOGthb/GAG-Trade-Sys/main)\r ![GitHub language count](https://img.shields.io/github/languages/count/LCSOGthb/GAG-Trade-Sys)\r ![GitHub top language](https://img.shields.io/github/languages/top/LCSOGthb/GAG-Trade-Sys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LCSOGthb/GAG-Trade-Sys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LCSOGthb/GAG-Trade-Sys/issues"
+  },
+  "homepage": "https://github.com/LCSOGthb/GAG-Trade-Sys#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAG Trading Hub</title>
+</head>
+<body>
+  <h1>Grow a Garden Trading Hub</h1>
+  <form id="offerForm">
+    <input type="text" id="user" placeholder="Your name or contact" required>
+    <input type="text" id="item" placeholder="Item to trade" required>
+    <input type="text" id="want" placeholder="What you want" required>
+    <button type="submit">Create Offer</button>
+  </form>
+  <h2>Offers</h2>
+  <ul id="offers"></ul>
+  <script>
+    async function loadOffers() {
+      const res = await fetch('/offers');
+      const offers = await res.json();
+      const list = document.getElementById('offers');
+      list.innerHTML = '';
+      offers.forEach((offer, i) => {
+        const li = document.createElement('li');
+        li.textContent = `User: ${offer.user} | Offer: ${offer.item} | Wants: ${offer.want}`;
+        const btn = document.createElement('button');
+        btn.textContent = 'Accept';
+        btn.onclick = async () => {
+          await fetch(`/offers/${i}/accept`, { method: 'POST' });
+          loadOffers();
+        };
+        li.appendChild(btn);
+        list.appendChild(li);
+      });
+    }
+    document.getElementById('offerForm').onsubmit = async (e) => {
+      e.preventDefault();
+      const user = document.getElementById('user').value;
+      const item = document.getElementById('item').value;
+      const want = document.getElementById('want').value;
+      await fetch('/offers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user, item, want })
+      });
+      loadOffers();
+      e.target.reset();
+    };
+    loadOffers();
+  </script>
+</body>
+</html>
