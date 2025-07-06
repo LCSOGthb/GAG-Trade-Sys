@@ -35,7 +35,8 @@ OSSF:
 ![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/LCSOGthb/GAG-Trade-Sys)
 
 Qlty:
-
+[![Maintainability](https://qlty.sh/gh/LCSOGthb/projects/GAG-Trade-Sys/maintainability.svg)](https://qlty.sh/gh/LCSOGthb/projects/GAG-Trade-Sys)
+[![Code Coverage](https://qlty.sh/gh/LCSOGthb/projects/GAG-Trade-Sys/coverage.svg)](https://qlty.sh/gh/LCSOGthb/projects/GAG-Trade-Sys)
 
 Scrutinizer:
 ![Scrutinizer quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/LCSOGthb/GAG-Trade-Sys)
