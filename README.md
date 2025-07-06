@@ -24,7 +24,7 @@ Codecov:
 [![codecov](https://codecov.io/github/LCSOGthb/GAG-Trade-Sys/graph/badge.svg?token=t1v9D7ZHZV)](https://codecov.io/github/LCSOGthb/GAG-Trade-Sys)
 
 CircleCI:
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/LCSOGthb/GAG-Trade-Sys/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/LCSOGthb/GAG-Trade-Sys/tree/main)
 
 DeepSource:
 [![DeepSource](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys.svg/?label=code+coverage&show_trend=true&token=FCzKwJkJlnNsdlo2nkxMwSXO)](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys/)
