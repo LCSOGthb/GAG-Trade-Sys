@@ -27,7 +27,9 @@ CircleCI:
 
 
 DeepSource:
-
+[![DeepSource](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys.svg/?label=code+coverage&show_trend=true&token=FCzKwJkJlnNsdlo2nkxMwSXO)](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys/)
+[![DeepSource](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys.svg/?label=active+issues&show_trend=true&token=FCzKwJkJlnNsdlo2nkxMwSXO)](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys/)
+[![DeepSource](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys.svg/?label=resolved+issues&show_trend=true&token=FCzKwJkJlnNsdlo2nkxMwSXO)](https://app.deepsource.com/gh/LCSOGthb/GAG-Trade-Sys/)
 
 OSSF:
 ![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/LCSOGthb/GAG-Trade-Sys)
