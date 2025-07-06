@@ -44,6 +44,3 @@ Snyk:
 [![Known Vulnerabilities](https://snyk.io/test/github/LCSOGthb/GAG-Trade-Sys/badge.svg)](https://snyk.io/test/github/LCSOGthb/GAG-Trade-Sys)
 
 SonarQube Cloud:
-
-
-For the Badge:
