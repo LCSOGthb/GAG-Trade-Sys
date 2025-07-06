@@ -21,7 +21,7 @@ Codacy:
 
 
 Codecov:
-
+[![codecov](https://codecov.io/github/LCSOGthb/GAG-Trade-Sys/graph/badge.svg?token=t1v9D7ZHZV)](https://codecov.io/github/LCSOGthb/GAG-Trade-Sys)
 
 CircleCI:
 
