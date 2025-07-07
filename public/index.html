@@ -147,7 +147,7 @@
       const offers = await res.json();
       const list = document.getElementById('offers');
       list.innerHTML = '';
-      offers.forEach((offer, i) => {
+      offers.forEach((offer) => {
         const card = document.createElement('div');
         card.className = 'offer-card';
         card.innerHTML = `
@@ -158,7 +158,7 @@
         const btn = document.createElement('button');
         btn.textContent = 'Accept';
         btn.onclick = async () => {
-          await fetch(`/api/offers/${i}/accept`, { method: 'POST' });
+          await fetch(`/api/offers/${offer._id}/accept`, { method: 'POST' });
           loadOffers();
         };
         card.appendChild(btn);
