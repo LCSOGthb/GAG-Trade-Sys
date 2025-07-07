@@ -8,7 +8,9 @@ app.use(express.json());
 
 // Replace with your actual MongoDB Atlas connection string
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://LCSgts:LCSgtsdb1512@cluster0.3izuovo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const user = process.env.LCSgts;
+const password = process.env.LCSgtsdb1512;
+const uri = `mongodb+srv://${user}:${password}@cluster0.3izuovo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
