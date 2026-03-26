@@ -1,8 +1,7 @@
 Following the official Grow A Garden Trading Update released on 8/2/2025 there is no longer a need to continue development. As a result, this system will be officially discontinued on 8/3/2025
 
-This repository will not be archive to ensure all system don't broke
+This repository will not be archive to ensure all system that's being used on here won't be broken for other repository.
 
-![Lines Of Code](https://tokei.rs/b1/github/LCSOGthb/GAG-Trade-Sys)
 ![Repo Size](https://img.shields.io/github/repo-size/LCSOGthb/GAG-Trade-Sys)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LCSOGthb/GAG-Trade-Sys)
 ![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/LCSOGthb/GAG-Trade-Sys)
